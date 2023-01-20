@@ -18,10 +18,10 @@ string ReadStr(string message)
 void LessThenThree(string[] array1, string[] array2)
 {
     int count = 0;
-    int symbol = 3;
+    int quantity = 3;
     for (int i = 0; i < array1.Length; i++)
     {
-        if (array1[i].Length <= symbol)
+        if (array1[i].Length <= quantity)
         {
             array2[count] = array1[i];
             count++;
